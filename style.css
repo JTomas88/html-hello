@@ -1,0 +1,75 @@
+.cabecera{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+#titulo{
+    background-color: white;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+   
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotografia{
+    width: 450px;
+    height: 550px;
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+}
+
+#datosFoto{
+    background-color: white;
+    height: 30px;
+    width: auto;
+    align-content: center;
+    position: relative;    
+}
+
+#datosFoto > #name > p{
+    margin: 0px;
+}
+
+#name{
+    float: left;
+    font-size: medium;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+#fecha{
+    color: gray;
+    font-size: small;
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}   
+
+#imagen{
+    background-color: white;
+    width: 100%;
+    height: 432.5px ;
+    object-fit: scale-down;
+}
+
+#pieFoto{    
+    background-color: white;
+    width: auto;
+    height: 80px;
+}
+
+#pieFoto > p{
+    margin: 10px;
+    font-size: small;
+}
